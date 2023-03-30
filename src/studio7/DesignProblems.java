@@ -11,6 +11,7 @@ public class DesignProblems {
 		rectangle(3,3);
 		die(12);
 		addFraction(1,2,3,8);
+		reciprocal(1,2);
 	}
 
 	public static void rectangle(int length, int width)
@@ -70,6 +71,11 @@ public class DesignProblems {
 		}
 
 		}
+	}
+	
+	public static void reciprocal(int numerator, int denominator)
+	{
+		System.out.print(denominator + "/" + numerator);
 	}
 	
 	public static int gcd(int p, int q) {
